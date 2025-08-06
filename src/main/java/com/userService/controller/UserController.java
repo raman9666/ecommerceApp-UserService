@@ -23,7 +23,7 @@ import com.userService.entity.User;
 import com.userService.service.UserService;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/users")
 public class UserController {
 
 	private UserService userService;
